@@ -1,7 +1,9 @@
-body{
+body {
     background-color: rgb(235, 214, 226);
+    border: solid pink 2px;
 }
-h1{
+
+h1 {
     text-align: center;
     color: rgb(153, 37, 124);
 }
