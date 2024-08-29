@@ -1,6 +1,7 @@
 body {
     background-color: rgb(235, 214, 226);
-    border-radius: solid rgb(112, 20, 77) 2px;
+    border: solid rgb(112, 20, 77) 2px;
+    border-radius: 45px;
    padding: 1em;
 }
 
