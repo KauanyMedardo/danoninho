@@ -2,10 +2,33 @@ body {
     background-color: rgb(235, 214, 226);
     border: solid rgb(112, 20, 77) 2px;
     border-radius: 45px;
-   padding: 1em;
+    padding: 1em;
+    font-family: Arial, sans-serif; /* Adiciona uma fonte padrão */
 }
 
 h1 {
     text-align: center;
+    color: rgb(153, 37, 124);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    align-items: center; /* Alinha verticalmente no centro */
+    flex-wrap: wrap; /* Permite que os elementos se movam para a linha seguinte em telas menores */
+}
+
+.ingredients {
+    flex: 1;
+    margin-right: 1em; /* Espaço entre a lista de ingredientes e a imagem */
+}
+
+.image img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 15px; /* Adiciona bordas arredondadas à imagem */
+}
+
+h2 {
     color: rgb(153, 37, 124);
 }
